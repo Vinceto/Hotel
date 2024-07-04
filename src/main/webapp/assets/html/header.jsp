@@ -1,10 +1,11 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <header>
     <div class="container">
         <div class="row py-3">
-            <div class="col-6">
-                <img src="assets/img/sheraton-logo.png" alt="Sheraton Hotel Logo" class="img-fluid">
+            <div class="col-2">
+                <img src="assets/img/sheraton-logo.png" alt="Sheraton Hotel Logo" class="img-fluid sheraton-logo">
             </div>
-            <div class="col-6 d-flex align-items-center justify-content-end">
+            <div class="col-10 d-flex align-items-center justify-content-start">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <div class="container-fluid">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,6 +32,12 @@
                         </div>
                     </div>
                 </nav>
+            </div>
+        </div>
+        <div class="row py-3" style="background-color: black; color: white;">
+            <div class="col-12 text-center">
+                <h1>RESERVAS HOTEL SHETARON MIRAMAR</h1>
+                <h4>Habitaciones Disponibles</h4>
             </div>
         </div>
     </div>
